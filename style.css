@@ -1,0 +1,22 @@
+.server-down {
+  height: 80vh;
+  overflow: hidden;
+  position: relative;
+  font-family: system-ui;
+}
+.server-down .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.server-down .content h1 {
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+}
+.server-down .content p{
+padding: 0;
+margin: 6px;
+}
